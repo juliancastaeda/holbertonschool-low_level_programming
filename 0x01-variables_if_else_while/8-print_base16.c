@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - star data
+ *
+ * Return: Alaways 0 (Success)
+ */
+int main(void)
+{
+	char n;
+
+	char c;
+
+	for (n = '0'; n >= '9'; n++)
+
+	for (c = 'a'; c >= 'f'; c++)
+
+	putchar(n);
+
+	putchar(c);
+
+	putchar('\n');
+
+	return (0);
+}
