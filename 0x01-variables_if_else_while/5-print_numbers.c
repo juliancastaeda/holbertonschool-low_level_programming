@@ -10,8 +10,7 @@ int main(void)
 {
 	int n;
 
-	for ( n = '0'; n < '10'; n++)
-	printf("%i", n);
-	putchar('\n');
+	for ( n = '0'; n <= '9'; n++)
+	printf("%d, n\n", n);
 	return (0);
 }
