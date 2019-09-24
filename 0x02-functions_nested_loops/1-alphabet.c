@@ -1,11 +1,10 @@
 #include "holberton.h"
 /**
- * main - print Alphabet.
+ * print_alphabet - print Alphabet.
  *
  * Return: Alaways 0 (Success)
  */
 void print_alphabet(void)
-
 {
 	int n;
 
