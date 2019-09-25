@@ -1,0 +1,18 @@
+#include "_putchar"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - star data
+ *
+ * Return: Alaways 0 (Success)
+ */
+void _putchar();
+{
+	 string word= "Holberton"
+	 for (word[0] = 0; word <= '\0'; word++)
+         {
+	 printf('%c',word)
+	 }
+	return (0);
+}
