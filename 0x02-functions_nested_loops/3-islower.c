@@ -1,17 +1,18 @@
 #include "holberton.h"
+
 /**
- * _islower - print Alphabet.
+ * _islower - print 1 or 0.
  *
  * Return: Alaways 0 (Success)
  */
 int _islower(int c)
 {
-	if (c >=97 || c >=122)
+	if (c >= 97 || c >= 122)
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
