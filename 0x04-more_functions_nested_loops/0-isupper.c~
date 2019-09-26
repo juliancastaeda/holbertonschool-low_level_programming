@@ -1,0 +1,21 @@
+#include "holberton.h"
+
+/**
+ * _isupper - print  alphabet .
+ * @c:evaluate if it is capital letter
+ *
+ * Return: Alaways 0 (Success)
+ */
+
+int _isupper(int c)
+{
+	if (c == A)
+	{
+		return (1);
+	}
+
+	else
+	{
+		return (0);
+	}
+}
