@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * _islower - print 1 or 0.
- * @c:evaluate if it is capital
+ * print_numbres - print numbers 0 an 9.
+ * @ :
  *
  * Return: Alaways 0 (Success)
  */
