@@ -1,0 +1,1 @@
+A function is a group of statements that together perform a task. ... A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function. The C standard library provides numerous built-in functions that your program can call.
