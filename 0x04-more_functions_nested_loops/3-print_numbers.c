@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_numbres - print numbers 0 an 9.
+ * print_numbers - print numbers 0 an 9.
  * @ :
  *
  * Return: Alaways 0 (Success)
