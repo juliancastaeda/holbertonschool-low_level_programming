@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _islower - print 1 or 0.
- * @c:evaluate if it is capital
- *
+ * mul - multiplication.
+ * @a:variable to multiply
+ *@b:variable to multiply
  * Return: Alaways 0 (Success)
  */
 
