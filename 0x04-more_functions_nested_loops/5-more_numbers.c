@@ -11,12 +11,18 @@ void print_more_numbers(void)
 {
 	int n, m;
 
-	while (m <= 9)
-	for (n = '0' n <= "14"; n++)
+	m = 0
+
+		while (m <= 9);
 
 	{
+		for (n = 0;  n <= 14; n++)
+
+	{
+
 		_putchar(n);
 	}
-	_putchar('\n');
-	++m;
+		_putchar('\n');
+		++m;
+	}
 }
