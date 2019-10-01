@@ -1,0 +1,25 @@
+#include "holberton.h"
+
+/**
+ * reset_to_98 - .
+ * @n: prin 98 and 402
+ *
+ * Return: Alaways 0 (Success)
+ */
+
+void reset_to_98(int *n)
+
+{
+	int z;
+
+	n = &z;
+
+	*n = 402;
+	_putchar(z);
+
+	z = 98;
+ 	_putchar(z);
+
+	_putchar('\n');
+
+}
