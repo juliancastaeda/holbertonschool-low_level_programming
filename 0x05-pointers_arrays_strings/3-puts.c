@@ -1,18 +1,23 @@
 #include "holberton.h"
 
 /**
- * swap_int - change numerical values between a and b.
- * @a: number exchange with b.
- * @b: exchange of numbers with a.
+ * _puts - print string.
+ * @str: pontier.
+ *
  * Return: Alaways 0 (Success)
  */
 
 void _puts(char *str)
-
 {
-	char c[53];
+	int a, b;
 
-	c = *a;
-	*a = *b;
-	*b = c;
+	while (str[b] != 0)
+	{
+		b++;
+	}
+	for (a = 0; a < b; a++)
+	{
+		_putchar(str[a]);
+	}
+	_putchar('\n');
 }
