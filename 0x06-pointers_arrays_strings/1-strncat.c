@@ -1,12 +1,13 @@
 #include "holberton.h"
 /**
- * _strcat - return string
+ * _strncat - return string
  * @dest: printer
  * @src : printer
+ * @n: int
  * Return: char
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a = 0, b = 0, c;
 
@@ -14,11 +15,11 @@ char *_strcat(char *dest, char *src)
 	{
 		a++;
 	}
-	while (src[b] != 0);
+	while (src[b] != 0)
 	{
 		b++;
 	}
-	for (c = 0; c <= b; c++)
+	for (c = 0; c < n && src [c] != '\0'; c++)
 	{
 		dest[a] = src[c];
 		a++;
