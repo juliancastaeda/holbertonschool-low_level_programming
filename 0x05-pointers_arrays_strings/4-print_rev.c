@@ -1,23 +1,23 @@
 #include "holberton.h"
-
 /**
- * print_rev - print string.
- * @str: pontier.
+ * print_rev - Print String reverse
+ * @s: Parameter String
  *
- * Return: Alaways 0 (Success)
+ *
+ *
  */
-
 void print_rev(char *s)
 {
-	int a, b;
-
-	while (s[b] != 0)
+	char *t = s;
+	int len = 0, i;
+	while (*t != '\0')
 	{
-		b--;
+		len++;
+		t++;
 	}
-	for (a = b-1 ; a <= b; a--)
+	for (i = len - 1; i >= 0; i--)
 	{
-		_putchar(s[a]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
