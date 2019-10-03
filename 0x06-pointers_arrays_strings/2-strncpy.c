@@ -3,7 +3,7 @@
  * _strncpy - return string
  * @dest: printer
  * @src: printer
- : @n :printer
+ * @n: printer
  * Return: char
  */
 
