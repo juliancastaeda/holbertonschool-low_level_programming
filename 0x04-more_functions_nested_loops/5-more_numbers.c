@@ -16,8 +16,8 @@ void print_more_numbers(void)
 		while (m <= 9);
 
 	{
-		for (n = 0;  n <= 14; n++)
-
+		for (n = 0;  n <= 9; n++)
+			
 	{
 
 		_putchar(n);
