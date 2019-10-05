@@ -12,7 +12,7 @@ printf("Size of an int: %i", sizeof(int));
 printf(" byte(s)\n");
 printf("Size of a long int: %d", sizeof(long));
 printf(" byte(s)\n");
-printf("Size of a long long: %d", sizeof(doule));
+printf("Size of a long long int: %d", sizeof(double));
 printf(" byte(s)\n");
 printf("Size of a float: %d", sizeof(float));
 
