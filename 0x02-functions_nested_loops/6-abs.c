@@ -7,13 +7,14 @@
  * Return: Alaways 0 (Success)
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int a;
+	int m;
 
-	a = _abs;
+	if (n >= 0)
+	m = n;
+	else
+	m = (n * -1);
 
-	_putchar (a);
-
-	return (0);
+	return (m);
 }
