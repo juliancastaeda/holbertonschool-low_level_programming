@@ -2,9 +2,9 @@
 
 /**
  * _abs - print the absolute value
- * @
+ * @n : print absolute value.
  *
- * Return: Alaways 0 (Success)
+ * Return: m, 0, -m
  */
 
 int _abs(int n)
