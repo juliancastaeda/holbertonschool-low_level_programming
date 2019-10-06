@@ -7,22 +7,27 @@
  * Return: Alaways 0 (Success)
  */
 
-void print_more_numbers(void)
+void more_numbers(void)
 {
-	int n, m;
+	int i, j, k;
 
-	m = 0
+	j = 0;
 
-		while (m <= 9);
-
+	for (k = 0; k < 10; k++)
 	{
-		for (n = 0;  n <= 9; n++)
-			
-	{
-
-		_putchar(n);
+		for (i = 48; i <= 57; i++)
+		{
+			if (j >= 15)
+				break;
+			if (j >= 10)
+				_putchar('1');
+			_putchar(i);
+			j++;
+			if (i == 57)
+				i = 47;
 	}
-		_putchar('\n');
-		++m;
-	}
+	i = 48;
+	j = 0;
+	_putchar('\n');
+}
 }
