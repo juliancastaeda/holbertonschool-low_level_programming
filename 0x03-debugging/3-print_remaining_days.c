@@ -2,8 +2,8 @@
 #include "holberton.h"
 
 /**
- * print_remaining_days - takes a date 
- * 
+ * print_remaining_days - takes a date
+ *
  * @month: month in number format
  * @day: day of month
  * @year: year
