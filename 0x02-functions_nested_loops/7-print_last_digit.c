@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_sign - print signs
+ * print_last_digit - print last digit
  * @n: print las digit
  *
  * Return: 0 sucess
