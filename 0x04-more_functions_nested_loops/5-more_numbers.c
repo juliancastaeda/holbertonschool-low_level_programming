@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_more_numbers - print numbers.
+ * more_numbers - print numbers.
  * @ :
  *
  * Return: Alaways 0 (Success)
