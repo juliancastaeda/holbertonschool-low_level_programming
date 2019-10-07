@@ -4,8 +4,9 @@
  *@s: pointer character.
  *@c: variable
  *
- * Return: dest
+ * Return: char.
  */
+
 char *_strchr(char *s, char c)
 {
 	int n = 0;
@@ -19,5 +20,5 @@ char *_strchr(char *s, char c)
 	}
 	n++;
 	}
-	return('\0');
+	return ('\0');
 }
