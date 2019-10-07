@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * cap_string - capitalizes all words of a string.
+ * _memset - print pointer..
  * @s: pointer
  * @b: memory
  * @n: memory
@@ -15,5 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[x] = b;
 	}
-	return(s);
+	return (s);
 }
