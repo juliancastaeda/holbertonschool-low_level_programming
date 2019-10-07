@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strcpy - copies the string. 
+ * _strcpy - copies the string.
  *@dest: first value to check
  *@src: Second value to check
  *
