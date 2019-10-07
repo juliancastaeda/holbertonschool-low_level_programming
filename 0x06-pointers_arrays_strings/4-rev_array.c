@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * reverse_array - function that reverses the content. 
+ * reverse_array - function that reverses the content.
  * @a: first value to compare
  *@n: second value to compare
  *
