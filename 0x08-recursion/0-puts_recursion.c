@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* main - check the code for Holberton School students.
+* _puts_recursion - print recursion
 * @s : recursion
 * Return: Always 0.
 */

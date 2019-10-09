@@ -1,10 +1,10 @@
 #include "holberton.h"
+
 /**
- * _strlen_recursion - print recursion
+ * _strlen_recursion - print array
  * @s : recursion
  * Return: Always 0.
  */
-
 int _strlen_recursion(char *s)
 {
 	int n = 0;
