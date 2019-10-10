@@ -1,20 +1,17 @@
 #include "holberton.h"
- /**
- * _pow_recursion - print array
- * @x : Base
- * @y : potencia
- * Return: Always 0.
+/**
+ * _pow_recursion - recursion print
+ * @x: number base
+ * @y: exponent
+ * Return: Integer
+ *
  */
 int _pow_recursion(int x, int y)
 {
-	if (y < 0)
-	{
-		return (-1);
-	}
-	else if (y == 0)
-	{
-		return (1);
-	}
-	else
-		return (x * _pow_recursion(x, y - 1));
+if (y > 0)
+	return (x * _pow_recursion(x, y - 1));
+else if (y == 0)
+	return (1);
+else
+	return (-1);
 }
