@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * _atoi - copies the string
- *@s: value to check
+ * _atoi - copies the string 
+ *@s: first
  *
  * Return: result
  */
@@ -28,5 +28,5 @@ int _atoi(char *s)
 			j = i;
 	}
 	result = result * negat;
-	return
+	return (result);
 }
