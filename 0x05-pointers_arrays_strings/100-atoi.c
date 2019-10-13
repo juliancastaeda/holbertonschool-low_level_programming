@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _atoi - copies the string 
+ * _atoi - copies the string
  *@s: first
  *
  * Return: result
