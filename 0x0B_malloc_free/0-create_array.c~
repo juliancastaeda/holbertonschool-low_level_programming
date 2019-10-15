@@ -1,0 +1,32 @@
+#include <unistd.h>
+#include "holberton.h"
+/**
+ * create_array- create array and allocate memory
+ * @size:value of the memory use
+ * @c : variable
+ * Return: (0).
+ *
+ */
+char *create_array(unsigned int size, char c)
+{
+	char *p;
+	unsigned int a = 0;
+	if (size != 0)
+	{
+	p = malloc(size * sizeof(c));
+	}
+	else
+	{
+	return (NULL);
+	}
+	if (p == 0)
+	{
+	return (NULL);
+	}
+	while (a < size)
+	{
+	p[a] = c;
+	a++;
+	}
+	return (p);
+}
