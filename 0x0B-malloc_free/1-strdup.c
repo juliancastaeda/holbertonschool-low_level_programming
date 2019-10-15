@@ -2,14 +2,33 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * create_array- create array and allocate memory
- * @size:value of the memory use
- * @c : variable
+ * _strdup- copy in the array
+ * @str: copy
+ *
  * Return: (0).
  *
  */
-char *create_array(unsigned int size, char c)
+char *_strdup(char *str)
 {
+	char *n;
+	int m = 0, c = 0;
 
-
-       }
+	if (str == NULL)
+	return (NULL);
+	while (str[m] != '\0')
+	{
+	m++;
+	}
+	m++;
+	n = malloc(c * (sizeof(char)));
+	if (n == NULL)
+	{
+	return (NULL);
+	}
+	while (c < m)
+	{
+	n[c] = str[c];
+	c++;
+	}
+	return (n);
+}
