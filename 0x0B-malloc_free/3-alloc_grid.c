@@ -2,7 +2,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * _strdup- copy in the array
+ * alloc_grid- create tho bidimensional array
  * @width: array one bidimensional
  * @height: array tho bidimensional
  * Return: (0).
@@ -17,6 +17,7 @@ int **alloc_grid(int width, int height)
 	else
 	{
 	int i, j;
+
 	arr = (malloc(height * (sizeof(int *))));
 	if (arr == NULL)
 	{
