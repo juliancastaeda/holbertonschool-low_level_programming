@@ -2,9 +2,10 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * malloc_checked- array NULL
- * @b:variable
- *
+ * string_nconcat- concat  s1 s2.
+ * @s1: array
+ * @s2: array
+ * @n: variable
  * Return: (0).
  *
  */
