@@ -4,11 +4,11 @@
  * _calloc - concat  s1 s2.
  * @nmemb: array
  * @size: bytes array
- * 
+ *
  * Return: (0).
  *
  */
- void *_calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *c;
 unsigned int b;
