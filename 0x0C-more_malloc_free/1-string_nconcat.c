@@ -16,18 +16,18 @@ unsigned int i, j;
 
 b = "";
 if (s1 == NULL)
-    s1 = b;
+s1 = b;
 if (s2 == NULL)
-    s2 = b;
+s2 = b;
 for (i = 0; s1[i] != '\0'; i++)
-    ;
+;
 a = malloc(sizeof(char) * (i + n + 1));
 if (a == NULL)
-    return (NULL);
+return (NULL);
 for (i = 0; s1[i] != '\0'; i++)
-    a[i] = s1[i];
+a[i] = s1[i];
 for (j = 0; s2[j] != '\0' && j < n; j++, i++)
-    a[i] = s2[j];
+a[i] = s2[j];
 a[i] = '\0';
 return (a);
 }
