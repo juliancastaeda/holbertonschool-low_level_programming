@@ -1,4 +1,4 @@
 #ifndef SUMA_variables
 #define SUMA_variables
-#define SUM(a, b) (a + b)
+#define SUM(x, y) (x + y)
 #endif
