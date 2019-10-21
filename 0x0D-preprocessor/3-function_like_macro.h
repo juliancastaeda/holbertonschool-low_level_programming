@@ -1,4 +1,4 @@
 #ifndef absolute_value
 #define absolute_value
-#define ABS(a) ((a < 0) ? ((a) * -1) : (a))
+#define ABS(x) ((x < 0) ? ((x) * -1) : (x))
 #endif
