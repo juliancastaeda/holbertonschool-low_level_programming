@@ -1,0 +1,1 @@
+Aunque typedef se considera una clase de almacenamiento, en realidad no lo es. Le permite introducir sinónimos para tipos que podrían haberse declarado de otra manera. El nuevo nombre se vuelve equivalente al tipo que deseaba, como muestra este ejemplo.
