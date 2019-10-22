@@ -4,11 +4,11 @@
 /**
 * free_dog - new dog
 * @d: variable
-* 
+*
 * Return: pointer
 */
-void free_dog(dog_t *d)	
-{    
+void free_dog(dog_t *d)
+{
 if (d != NULL)
 {
 free(d->name);
