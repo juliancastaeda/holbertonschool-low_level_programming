@@ -3,18 +3,18 @@
 #include "dog.h"
 
 /**
- * init_dog - initialize function 
- * dog - strctured
- * @name: variable name
- * @age: variable age
- * @owner: variable owner
- * @d: pointer dog
- * Description: Dog variable 
- * Return: d
- */
+* init_dog - initialize function
+* dog - strctured
+* @name: variable name
+* @age: variable age
+* @owner: variable owner
+* @d: pointer dog
+* Description: Dog variable
+* Return: d
+*/
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-if(d != NULL)
+if (d != NULL)
 {
 d->name = name;
 d->age = age;

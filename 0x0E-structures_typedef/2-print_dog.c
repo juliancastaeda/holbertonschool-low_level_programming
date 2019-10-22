@@ -3,14 +3,14 @@
 #include "dog.h"
 
 /**
- * print_dog - initialize function 
- * dog - strctured
- * @d: pointer dog
- *
- * Description: Dog variable 
- * Return: 0
- */
- void print_dog(struct dog *d)
+* print_dog - initialize function 
+* dog - strctured
+* @d: pointer dog
+*
+* Description: Dog variable 
+* Return: 0
+*/
+void print_dog(struct dog *d)
 {
 if (d != NULL)
 {
