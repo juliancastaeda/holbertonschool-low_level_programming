@@ -30,9 +30,9 @@ printf("%d", num);
 }
 if (a != 0)
 {
+num = va_arg(list, int);
 printf("%s%d", separator, num);
 }
-num = va_arg(list, int);
 }
 va_end(list);
 }
