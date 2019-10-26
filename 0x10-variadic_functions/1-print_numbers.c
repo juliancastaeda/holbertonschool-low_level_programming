@@ -43,6 +43,6 @@ for (a = 0; a < n; a++)
 num = va_arg(list, int);
 printf("%d", num);
 }
-}
 printf("\n");
+}
 }
