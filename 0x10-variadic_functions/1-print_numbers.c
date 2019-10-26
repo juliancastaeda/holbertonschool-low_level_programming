@@ -15,11 +15,12 @@ va_list list;
 unsigned int a = 0;
 int num;
 
+if (n != 0)
 if (separator == NULL)
 {
 exit(0);
 }
-if (separator != NULL && n != 0)
+if (separator != NULL)
 va_start(list, n);
 for (a = 0; a < n; a++)
 {
