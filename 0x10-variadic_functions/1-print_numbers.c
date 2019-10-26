@@ -15,7 +15,7 @@ va_list list;
 unsigned int a = 0;
 unsigned int num;
 
-if (separator != NULL && (a + 1) != n)
+if (separator != NULL)
 {
 va_start(list, n);
 }
