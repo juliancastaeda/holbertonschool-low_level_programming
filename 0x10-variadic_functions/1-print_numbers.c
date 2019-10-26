@@ -31,4 +31,5 @@ printf("%s%d", separator, num);
 num = va_arg(list, int);
 }
 va_end(list);
+printf("\n");
 }
