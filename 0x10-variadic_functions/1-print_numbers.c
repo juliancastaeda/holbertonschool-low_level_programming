@@ -20,6 +20,7 @@ if (separator == NULL)
 exit(0);
 }
 va_start(list, n);
+if (separator != NULL)
 for (a = 0; a < n; a++)
 {
 if (a == 0)
