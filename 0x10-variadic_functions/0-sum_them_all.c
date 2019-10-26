@@ -21,6 +21,7 @@ if (n == 0)
 {
 return (0);
 }
+if (n != 0)
 for (c = 0; c < n; c++)
 {
 sum += va_arg(list, unsigned int);
