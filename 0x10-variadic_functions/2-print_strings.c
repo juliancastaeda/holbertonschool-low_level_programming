@@ -4,8 +4,8 @@
 #include <stdlib.h>
 /**
 * print_strings - print numbers
-* @n: varible int
-* @separator: pointer char
+* @n: varible int.
+* @separator: pointer char.
 * Return: value
 *
 */
@@ -22,20 +22,21 @@ va_start(list, n);
 for (a = 0; a < n; a++)
 {
 string = va_arg(list, char *);
-if (separator != NULL && a < n - 1)
+
+if (string == 0)
 {
-printf("%s%s", string, separator);
+printf("(nil)");
 }
 else
 {
 printf("%s", string);
 }
+if (separator != NULL && a < n - 1)
+{
+printf("%s", separator);
+}
 }
 va_end(list);
-printf("\n");
 }
-else
-{
 printf("\n");
-}
 }
