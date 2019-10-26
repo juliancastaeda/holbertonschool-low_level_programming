@@ -17,10 +17,9 @@ int num;
 
 if (separator == NULL)
 {
-    exit(0);
+exit(0);
 }
-
-if (separator != NULL)
+if (separator != NULL && n != 0)
 va_start(list, n);
 for (a = 0; a < n; a++)
 {
