@@ -15,21 +15,27 @@ va_list list;
 unsigned int a = 0;
 char *string;
 
-if (separator == NULL)
-{
-exit(0);
-}
 va_start(list, n);
+
+if (n != 0)
+{
 for (a = 0; a < n; a++)
 {
 string = va_arg(list, char *);
-if (string == 0)
-printf("(nil)");
+if (separator != NULL && a < n - 1)
+{
+printf("%s%s", string, separator);
+}
 else
+{
 printf("%s", string);
-if (separator != NULL && a != (n - 1))
-printf("%s", separator);
+}
 }
 va_end(list);
 printf("\n");
+}
+else
+{
+printf("\n");
+}
 }
