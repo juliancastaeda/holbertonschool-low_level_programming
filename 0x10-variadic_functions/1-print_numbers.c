@@ -15,12 +15,7 @@ va_list list;
 unsigned int a = 0;
 unsigned int num;
 
-if (separator == NULL)
-{
-num = va_arg(list, int);    
-printf("%d", num);
-}
-if (separator != NULL)
+if (separator != NULL && (a + 1) != n)
 {
 va_start(list, n);
 }
