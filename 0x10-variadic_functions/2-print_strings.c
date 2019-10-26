@@ -15,10 +15,10 @@ va_list list;
 unsigned int a = 0;
 char *string;
 
-va_start(list, n);
-
 if (n != 0)
 {
+va_start(list, n);
+
 for (a = 0; a < n; a++)
 {
 string = va_arg(list, char *);
