@@ -34,6 +34,6 @@ printf("%s%d", separator, num);
 }
 va_end(list);
 {
-printf("\n");    
+printf("\n");
 }
 }
