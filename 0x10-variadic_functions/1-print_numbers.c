@@ -16,8 +16,11 @@ unsigned int a = 0;
 int num;
 
 if (n != 0)
+{
 if (separator != NULL)
+{
 va_start(list, n);
+}
 for (a = 0; a < n; a++)
 {
 if (a == 0)
@@ -32,5 +35,6 @@ printf("%s%d", separator, num);
 num = va_arg(list, int);
 }
 va_end(list);
+}
 printf("\n");
 }
