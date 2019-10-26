@@ -15,8 +15,13 @@ va_list list;
 unsigned int a = 0;
 int num;
 
-va_start(list, n);
+if (separator == NULL)
+{
+    exit(0);
+}
+
 if (separator != NULL)
+va_start(list, n);
 for (a = 0; a < n; a++)
 {
 if (a == 0)
