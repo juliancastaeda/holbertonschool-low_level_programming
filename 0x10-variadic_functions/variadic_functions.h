@@ -4,12 +4,15 @@
 #include <stdarg.h>
 #include <stdlib.h>
 /**
- * 
- * 
- * 
- * 
- * */
-typedef struct op 
+ * struct op - struct op.
+ *
+ * @op: operator
+ * @f:function
+ * @separator: separator
+ * @a: variable
+*/
+
+typedef struct op
 {
 char *op;
 void (*f)(char *separator, va_list a);
