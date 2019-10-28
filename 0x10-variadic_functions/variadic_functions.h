@@ -7,10 +7,8 @@
  * struct op - struct op.
  *
  * @op: operator
- * @f:function
- * @separator: separator
- * @a: variable
-*/
+ * @f: function
+ */
 
 typedef struct op
 {
