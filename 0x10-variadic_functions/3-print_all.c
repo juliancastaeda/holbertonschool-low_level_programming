@@ -8,49 +8,49 @@
 * Return: (0)
 *
 */
-void c_char(va_list a)
+void c_char(char *separator, va_list a)
 {
-    printf("%c", va_arg(a, int));
+    printf("%s%c", separator, va_arg(a, int));
 }
 
 /**
-* c_char - print char
+* i_integer - print char
 * @a: va_list 
 * Return: (0)
 *
 */
-void i_integer(va_list a)
+void i_integer(char *separator, va_list a)
 {
-    printf("%d", va_arg(a, int));
+    printf("%s%i", separator, va_arg(a, int));
 }
 
 /**
-* c_char - print char
+* f_float - print char
 * @a: va_list 
 * Return: (0)
 *
 */
-void f_float(va_list a)
+void f_float(char *separator, va_list a)
 {
-    printf("%f", va_arg(a, double));
+    printf("%s%f", separator, va_arg(a, double));
 }
 
 /**
-* c_char - print char
+* s_char - print char
 * @a: va_list 
 * Return: (0)
 *
 */
-void s_char(var_list a)
+void s_char(char *separator, va_list a)
 {
-    char *b
-    p = (va_arg(a, char *));
-    if (a == NULL)
+    char *b;
+    b = (va_arg(a, char *));
+    if (b == NULL)
     {
         printf("(nil)");
         return;
     }
-    printf("s", b);
+    printf("%s%s", separator, b);
 }
 
 /**
@@ -61,20 +61,36 @@ void s_char(var_list a)
 */
 void print_all(const char * const format, ...)
 {
-    va_list a;
-    jc_c list[] = {
-        {"c", c_char},
-        {"i", i_integer},
-        {"f", f_float},
-        {"s", s_char};
-        {"NULL, NULL"}
+form_function list[] = {
+        	{"c", c_char},
+        	{"i", i_integer},
+        	{"f", f_float},
+        	{"s", s_char},
+        	{NULL, NULL}
     };
-    itn x = 0, y = 0, z = 0;
 
-    va_star(a, format);
-    while (format && format[x])
-    {
-        
+	va_list a;
+
+	va_start(a, format);
+    int x = 0, y = 0;
+
+    char *separator = "";
+    
+    while (format != NULL && format[x])
+	{
+		y = 0;
+        while(y < 4)
+        {	
+			
+            if (format[x] == *(list[y]).op)
+			{
+				list[y].f(separator, a);
+				separator = ", ";
+			}
+			y++;
+        }
+		x++;
     }
+	printf("\n");
+	va_end(a);
 }
-
