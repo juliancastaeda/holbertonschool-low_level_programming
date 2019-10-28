@@ -70,7 +70,6 @@ form_function list[] = {
 {"i", i_integer},
 {"f", f_float},
 {"s", s_char},
-{NULL, NULL}
 };
 
 va_list a;
