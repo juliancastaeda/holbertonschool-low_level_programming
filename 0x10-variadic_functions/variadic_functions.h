@@ -4,15 +4,15 @@
 #include <stdarg.h>
 #include <stdlib.h>
 /**
- * struct op - struct op.
+ * struct jc - struct jc.
  *
- * @op: operator
+ * @jc: operator
  * @f: function
  */
 
-typedef struct op
+typedef struct jc
 {
-char *op;
+char *jc;
 void (*f)(char *separator, va_list a);
 } form_function;
 

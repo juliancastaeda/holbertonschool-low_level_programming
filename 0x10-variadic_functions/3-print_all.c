@@ -82,7 +82,7 @@ while (format != NULL && format[x])
 y = 0;
 while (y < 4)
 {
-if (format[x] == *(list[y]).op)
+if (format[x] == *(list[y]).jc)
 {
 list[y].f(separator, a);
 separator = ", ";
