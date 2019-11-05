@@ -13,7 +13,7 @@ listint_t *a;
 a = malloc(sizeof(listint_t));
 if (a == NULL)
 {
-return ('\0');
+return (NULL);
 }
 else
 {
