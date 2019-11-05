@@ -1,21 +1,19 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * add_nodeint_end - create new node
+ * free_listint - free lists
  * @head: singly listen
- * @n: variable
  *
  * Return:  new node
  */
- void free_listint(listint_t *head)
- {
-     listint_t *a;
+void free_listint(listint_t *head)
+{
+listint_t *a;
 
-     while ( head != NULL)
-     {
-     a = head;
-     head = head->next;
-     free(a);
-     }
- }
- 
+while (head != NULL)
+{
+a = head;
+head = head->next;
+free(a);
+}
+}
