@@ -13,12 +13,12 @@ if (head == NULL)
 {
 return;
 }
-while (b != NULL)
+while (*head != NULL)
 {
-b = (*head)->next;
-free(*head);
-*head = b;
-}
+b = *head;
+*head = b->next;
 free(b);
-head = NULL;
+}
+free(*head);
+*head = NULL;
 }
