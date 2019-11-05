@@ -16,5 +16,7 @@ b = (*head)->next;
 free(*head);
 *head = b;
 }
+if(b == NULL)
+free (b);
 *head = NULL;
 }
