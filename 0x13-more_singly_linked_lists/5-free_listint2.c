@@ -20,8 +20,8 @@ free(b);
 }
 else
 {
-    return;
+return;
 }
 free(*head);
-*head = NULL;
+head = NULL;
 }
