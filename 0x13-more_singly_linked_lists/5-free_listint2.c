@@ -19,7 +19,6 @@ b = (*head)->next;
 free(*head);
 *head = b;
 }
-free(*head);
 free(b);
 head = NULL;
 }
