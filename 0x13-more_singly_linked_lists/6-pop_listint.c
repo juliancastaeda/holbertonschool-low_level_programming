@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * pop_listint - free lists
- * @head: singly listen
+ * @head: pointer listen
  *
- * Return: void
+ * Return: int
  */
 int pop_listint(listint_t **head)
 {
@@ -13,14 +13,14 @@ int b = 0;
 
 if (*head == NULL)
 {
-    return(0);
+return (0);
 }
 a = *head;
 *head = (*head)->next;
 b = a->n;
 if (b != '\0')
 {
-    free(a);
+free(a);
 }
 return (b);
 }
