@@ -16,7 +16,5 @@ b = (*head)->next;
 free(*head);
 *head = b;
 }
-if(*head == NULL)
-free(*head);
 *head = NULL;
 }
