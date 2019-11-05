@@ -19,6 +19,8 @@ return (NULL);
 while (b != index)
 {
 a = a->next;
+if (a == NULL)
+return (NULL);
 b++;
 }
 return (a);
