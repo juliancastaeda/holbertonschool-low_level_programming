@@ -1,0 +1,1 @@
+Bit manipulation or bitwise operations are common in programs with microcontrollers, since they allow us to configure the registers to use the included hardware, access the input and output ports, make "quick calculations", verify the authenticity of the sent/received data, etc.
