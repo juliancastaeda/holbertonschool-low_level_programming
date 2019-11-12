@@ -12,16 +12,11 @@ char *ptr;
 int a;
 int fd = open(filename, O_RDONLY);
 
-if (fd == '\0')
+if (fd < 0)
 return (0);
-
-if (fd == '\0')
-return (0);
-
+if (filename == NULL)
+return(0);
 ptr = malloc(sizeof(letters));
-
-if (letters == '\0')
-return (0);
 a = read(fd, ptr, letters);
 write(STDIN_FILENO, ptr, letters);
 free(ptr);
