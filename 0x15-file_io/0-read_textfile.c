@@ -12,13 +12,13 @@ char *ptr;
 ssize_t a;
 int fd = open(filename, O_RDONLY);
 
-if (fd < 0)
+if (fd == -1)
 return (0);
 if (filename == NULL)
-return(0);
+return (0);
 ptr = malloc(sizeof(letters));
 if (ptr == NULL)
-return(0);
+return (0);
 a = read(fd, ptr, letters);
 write(STDOUT_FILENO, ptr, a);
 free(ptr);
