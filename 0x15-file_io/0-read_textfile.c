@@ -18,7 +18,7 @@ if (filename == NULL)
 return(0);
 ptr = malloc(sizeof(letters));
 a = read(fd, ptr, letters);
-write(STDIN_FILENO, ptr, letters);
+write(STDIN_FILENO, ptr, a);
 free(ptr);
 close(fd);
 return (a);
