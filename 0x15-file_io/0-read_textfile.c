@@ -30,11 +30,10 @@ if (fd == '\0')
 {
 return (0);
 }
-close (fd);
-close (a);
+close(fd);
 {
 return (a);
 }
 }
-return (0);
+return (a);
 }
