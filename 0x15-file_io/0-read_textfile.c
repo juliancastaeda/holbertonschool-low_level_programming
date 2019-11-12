@@ -23,8 +23,11 @@ return (0);
 }
 {
 a = read(fd, ptr, letters);
-
 write(STDIN_FILENO, ptr, letters);
+if (fd == '\0')
+{
+    return(0);
+}
 {
 return (a);
 }
