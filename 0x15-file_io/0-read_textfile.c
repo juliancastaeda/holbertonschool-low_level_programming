@@ -24,6 +24,7 @@ if (letters == '\0')
 return (0);
 a = read(fd, ptr, letters);
 write(STDIN_FILENO, ptr, letters);
+free(ptr);
 close(fd);
 return (a);
 }
