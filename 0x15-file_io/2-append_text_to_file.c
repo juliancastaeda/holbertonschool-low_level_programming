@@ -12,7 +12,7 @@ int fd, state;
 
 if (filename == NULL)
 return (-1);
-fd = open(filename, O_CREAT | O_WRONLY, S_IRUSR | S_IRUSR | S_IWUSR);
+fd = open(filename, O_WRONLY | O_APPEND);
 if (text_content != NULL)
 state = write(fd, text_content, strlen(text_content));
 if (state == -1)
