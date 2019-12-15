@@ -6,9 +6,9 @@
  *
  * Return: new element or NULL
  **/
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 {
-  dlistint_t *new, *a;
+dlistint_t *new, *a;
 
 new = malloc(sizeof(new));
 a = *head;
