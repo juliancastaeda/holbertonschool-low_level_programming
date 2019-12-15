@@ -2,7 +2,7 @@
 /**
   * free_dlistint - free a double linked lists
   * @head: pointer
-  * 
+  *
   * return : (0)
   **/
 void free_dlistint(dlistint_t *head)
