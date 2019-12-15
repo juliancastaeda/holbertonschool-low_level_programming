@@ -23,11 +23,11 @@ return (*head);
 }
 else
 {
-  new->next = *head;
-  (*head)->prev = new;
-  new->prev = NULL;
-  new->n = n;
-  *head = new;
- }
- return(*head);
+new->next = *head;
+(*head)->prev = new;
+new->prev = NULL;
+new->n = n;
+*head = new;
+}
+return (*head);
 }
