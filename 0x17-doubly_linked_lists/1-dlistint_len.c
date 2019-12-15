@@ -8,17 +8,12 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-int a = 0;
+size_t a = 0;
 
-while (h)
+for (count = 0; h != NULL; count++)
 {
-if (h[0].n == '\n')
-printf("[0] (nil)\n");
-else
 h = h->next;
-a++;
 }
-return (a);
+return (count);
 }
-
 
