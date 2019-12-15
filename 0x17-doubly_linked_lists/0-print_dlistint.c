@@ -10,14 +10,10 @@ size_t print_dlistint(const dlistint_t *h)
 {
 size_t a = 0;
 
-while (h)
+for (a = 0; h != NULL; a++)
 {
-if (h[0].n == '\n')
-printf("[0] (nil)\n");
-else
-printf("%d\n", h[0].n);
+printf("%d\n", h->n);
 h = h->next;
-a++;
 }
 return (a);
 }
