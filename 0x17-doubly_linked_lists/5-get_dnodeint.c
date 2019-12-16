@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * get_dnodeint_at_index - return new node
- * @head: pointer 
+ * @head: pointer
  * @index: input
  *
  * Return: Always 0
